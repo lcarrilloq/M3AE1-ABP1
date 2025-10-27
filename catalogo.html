@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catálogo</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="brand-section">
+          <h1><span class="brand-accent">VerdeModa</h1>
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="active-link"><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="catalog-section">
+    <div class="container">
+      <h2>Revisa nuestro Catálogo</h2>
+
+      <div class="filter-group">
+        <button class="filter-option active-filter" data-type="all">Todos</button>
+        <button class="filter-option" data-type="pantalones">Pantalones</button>
+        <button class="filter-option" data-type="camisas">Camisas</button>
+      </div>
+
+      <div class="grid-layout">
+        <div class="item-card" data-type="pantalones">
+          <img src="./assets/img/1.webp" alt="Pantalón Cargo Hombre">
+          <div class="card-body">
+            <h4>Pantalón Cargo Hombre</h4>
+            <p class="price-tag">$19.990</p>
+            <a href="producto.html" class="action-btn">Ver más</a>
+          </div>
+        </div>
+        <div class="item-card" data-type="camisas">
+          <img src="./assets/img/2.webp" alt="Camisa Oxford hombre ">
+          <div class="card-body">
+            <h4>Camisa Oxford hombre </h4>
+            <p class="price-tag">$29.990</p>
+            <a href="producto.html" class="action-btn">Ver más</a>
+          </div>
+        </div>
+        <div class="item-card" data-type="pantalones">
+          <img src="./assets/img/3.webp" alt="Jean Tipo Jogger Hombre">
+          <div class="card-body">
+            <h4>Jean Tipo Jogger Hombre</h4>
+            <p class="price-tag">$9.990</p>
+            <a href="producto.html" class="action-btn">Ver más</a>
+          </div>
+        </div>
+        <div class="item-card" data-type="camisas">
+          <img src="./assets/img/4.webp" alt="Camisa Formal de Negocios">
+          <div class="card-body">
+            <h4>Camisa Formal de Negocios</h4>
+            <p class="price-tag">$59.990</p>
+            <a href="producto.html" class="action-btn">Ver más</a>
+          </div>
+        </div>
+        <div class="item-card" data-type="pantalones">
+          <img src="./assets/img/5.webp" alt="Pantalón elásticos">
+          <div class="card-body">
+            <h4>Pantalón elásticos</h4>
+            <p class="price-tag">$14.990</p>
+            <a href="producto.html" class="action-btn">Ver más</a>
+          </div>
+        </div>
+        <div class="item-card" data-type="camisas">
+          <img src="./assets/img/6.webp" alt="Camisa de alta calidad">
+          <div class="card-body">
+            <h4>Camisa de alta calidad</h4>
+            <p class="price-tag">$19.990</p>
+            <a href="producto.html" class="action-btn">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Tienda VerdeModa &copy; 2025 – Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
